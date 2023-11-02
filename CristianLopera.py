@@ -9,4 +9,4 @@ class saludo():
     def mensaje(self):
         print("Bienvenido ", self.nombre)
 
-mensaje = saludo("Cristian")
+mensaje = saludo("Me tire el archivo")
