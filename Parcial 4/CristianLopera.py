@@ -112,7 +112,8 @@ tienda = Tienda()
 tienda.agregar_producto("Primer Producto", 2000)
 tienda.agregar_producto("Segundo Producto", 2500)
 tienda.agregar_producto("Tercer Producto", 3000)
-tienda.agregar_producto("Cuarto Producto", 3000)
+tienda.agregar_producto("Cuarto Producto", 4000)
+tienda.agregar_producto("Quinto Producto", 1000)
 
 #vender un producto
 producto_vendido = "Segundo Producto"
