@@ -1,0 +1,29 @@
+Parcial #4 LPW72-1.
+
+1) Reemplace el nombre de este archivo por su nombre, luego al final del txt edite y agregue su nombre, número de cédula y carné de estudiante. Suba el nuevo txt al repositorio haciendo un commit que diga "primer commit hecho por "su nombre". 10%
+
+2) Cree un archivo de python con su nombre_Python. Luego resuelva los siguientes puntos. Súbalo al repositorio con el commit "SuNombre segundo commit para subir el archivo de python" 10%
+
+3) Cree en el archivo de python una clase que se llame fibonacci, esa clase debe ser iterable y debe recibir como parámetro de entrada el número final hasta el cual se quiere calcular fibonacci. Ensaye la función con un for y un tiempo de pausa de 5 segundos donde se vea que en cada iteración se devuelve en orden el valor de la serie hasta el número final. 20%
+
+4) Cree una clase que reciba una ruta o nombre de archivo correspondiente al audio "audio_parcial" subido al github, luego cree los siguientes métodos tomando solo los primeros 30 segundos del audio:
+
+- Un método que grafique la señal en el tiempo, la señal debe poder recibir un parámetro que diga si se va a graficar un canal o dos, según el parámetro se debe hacer una gráfica de un solo canal, o una gráfica con subplots de cada canal.10%
+
+- Un método que calcule la transformada de fourier y grafique el espectrograma del audio -> agregue al menos 4 parámetros de entrada con los cuales se modifique la salida. Ejemplo (escala de grises, frecuencia mínima a graficar, frecuencia máxima a graficar, etc) 10%
+
+- Un método que permite guardar el espectrograma generado con un nombre en específico que es enviado como parámetro, si no se envía nada debe guardarse con el nombre "espectrograma_default" 10%
+
+5) Cree una clase tienda en la que se tenga un estock de productos, sus precios, métodos para agregar productos con sus precios, métodos para vender, y un método para mostrar una gráfica de su elección (puede ser ventas en 5 días, productos más vendidos, etc) 20%
+
+6) Monte el archivo a github con el commit "Parcial terminado SuNombre" suba además cualquier archivo adicional (los espectrogramas por ejemplo), en caso de que suba varios archivos suba una carpeta para reconocer sus archivos. 10%
+
+Nota: Tenga mucho cuidado de no sobreescribir los trabajos de los demas, por eso cada archivo debe llevar su propio nombre para evitar dañar el trabajo de los demás. 
+
+** El parcial se debe entregar hasta las 9 am del 9 de noviembre, luego de esa hora no se califican más archivos subidos.
+
+*** Recuerde que solo se reciben archivos subidos a través del git bash, no se tendrá en cuenta ningún archivo subido por plataforma.
+
+ Sebastian Tangarife Salazar
+cc 1128397373
+carnet 22117006
