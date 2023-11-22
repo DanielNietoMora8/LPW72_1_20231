@@ -1,0 +1,11 @@
+FROM python:latest
+
+LABEL Maintainer="Cristian"
+
+WORKDIR /usr/app/src
+
+COPY *.py ./
+COPY requirements.txt ./
+RUN pip install --no-cache-dir -r requirements.txt
+
+CMD [ "python", "./test.py"]
